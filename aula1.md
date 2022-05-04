@@ -32,3 +32,7 @@ Podemos usar o **short hand** do background ou de outras características, ou se
 O *display flex* a princípio coloca todos os itens um do lado do outro, mas podemos mudar sua **orientação**. No caso usamos orientação de *coluna*.
 
 Nós mudamos a posição da imagem, e utilizamos *pixel*. Utilizamos pixel justamente pela acessibilidade, caso mexa na *font size*, a imagem continuará colada no box de baixo. Porém a imagem está mantendo o tamanho, independe do *"zoom"* que damos. Para corrigir isso mudamos a largura da imagem. Porém, agora mudando pela acessibilidade, a parte de baixo vai alterando, portanto temos que usar *rem* sim.
+
+Iremos criar um *tag HTML* no nosso *CSS* Iremos fazer isso para criar um fundo em toda nossa *viewport*, e para isso usamos um unidade de medida que chama **vw (view width)**.
+
+Agora vamos fazer o **menu**. Usamos uma caixa *nav* que é *navigation*. Ele tem que ficar fixo na página, então usamos o *position: fixed*. Porém ao fazer isso ele faz uma sobreposição de conteúdo.
