@@ -43,3 +43,7 @@ Fazemos todo o processo de criar uma função de scroll e atribui-la ao nosso **
 Depois disso criamos uma lista **< ul>**.
 
 Depois de vários passos que damos, vimos uma ferramenta de acessibilidade através da **aria css**.
+
+Agora vamos para o Terceiro dia do nosso projeto. Hoje iremos colocar as caixas de referência dos nossos **serviços**. Temos uma caixa, que chamaremos de *header* também contendo *h4* e *h2*. Logo embaixo temos outra caixa que vai conter todos os **cards**, como se fossem *cartões*, que irão receber suas *configurações*.
+
+Parei colocando 3 **card** dentro dos **cards**
