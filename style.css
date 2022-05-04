@@ -279,6 +279,10 @@ body.menu-expanded path {
   fill: white;
 }
 
+body.menu-expanded .social-links path {
+  fill: none;
+}
+
 body.menu-expanded button path {
   stroke: white;
 }
