@@ -41,3 +41,5 @@ Para fazer essa cor diferente do *menu* será usado **JavaScript**. O JavaScript
 
 Fazemos todo o processo de criar uma função de scroll e atribui-la ao nosso **id** do *navigate*.
 Depois disso criamos uma lista **< ul>**.
+
+Depois de vários passos que damos, vimos uma ferramenta de acessibilidade através da **aria css**.

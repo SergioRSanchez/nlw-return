@@ -27,6 +27,8 @@ body {
   font-family: 'DM Sans';
   font-size: 1.6rem;
   text-align: center;
+
+  overflow: overlay;
 }
 
 .wrapper {
@@ -46,7 +48,7 @@ header {
 }
 
 header::before {
-  content: "";
+  content: '';
   width: 100%;
   height: calc(108rem + var(--nav-height));
   background-color: var(--brand-green-light);
@@ -174,8 +176,14 @@ nav.scroll svg:nth-child(1) path {
   fill: white;
 }
 
-nav.scroll svg:nth-child(2) path {
+nav.scroll button path {
   stroke: white;
+}
+
+nav button {
+  background: none;
+  border: none;
+  cursor: pointer;
 }
 
 /*=== MENU-EXPANDED ==========================================================*/
