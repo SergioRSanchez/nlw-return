@@ -39,3 +39,5 @@ Agora vamos fazer o **menu**. Usamos uma caixa *nav* que é *navigation*. Ele te
 
 Para fazer essa cor diferente do *menu* será usado **JavaScript**. O JavaScript é capaz de perceber movimentos que acontecem na página, portanto o *evento de rolagem* será percebido. Nós iremos colocar mais uma classe *(pode colocar mais de uma classe na mesma tag)* na nossa *tag nav*. Portanto, quando o JavaScript estiver rodando, ele mesmo vai colocar a *class scroll*.
 
+Fazemos todo o processo de criar uma função de scroll e atribui-la ao nosso **id** do *navigate*.
+Depois disso criamos uma lista **< ul>**.
