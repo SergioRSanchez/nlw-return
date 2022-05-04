@@ -36,3 +36,5 @@ Nós mudamos a posição da imagem, e utilizamos *pixel*. Utilizamos pixel justa
 Iremos criar um *tag HTML* no nosso *CSS* Iremos fazer isso para criar um fundo em toda nossa *viewport*, e para isso usamos um unidade de medida que chama **vw (view width)**.
 
 Agora vamos fazer o **menu**. Usamos uma caixa *nav* que é *navigation*. Ele tem que ficar fixo na página, então usamos o *position: fixed*. Porém ao fazer isso ele faz uma sobreposição de conteúdo.
+
+Para fazer essa cor diferente do *menu* será usado **JavaScript**. O JavaScript é capaz de perceber movimentos que acontecem na página, portanto o *evento de rolagem* será percebido. Nós iremos colocar mais uma classe *(pode colocar mais de uma classe na mesma tag)* na nossa *tag nav*. Portanto, quando o JavaScript estiver rodando, ele mesmo vai colocar a *class scroll*.
