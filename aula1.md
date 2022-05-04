@@ -23,3 +23,12 @@ Quando usamos o **display flex** mexemos com as tags filhas. Ele pega os element
 Site para pegar fontes: <https://fonts.google.com/>
 
 TERMINAR A PARTE DE BAIXO, VEJA QUE É UMA CAIXA, COM 3 CAIXAS DENTRO E 2 CAIXAS DENTRO DE CADA UMA DELAS. DICA É USAR O <DIV>
+
+Para fazer a parte embaixo da imagem, vale observar que é um box com 3 box dentros, e dentro de cada box tem mais 2 box dentros. Para isso vamos usar **< div>** e colocar uma **classe**, que nada mais é que uma *propriedade/atributo universal* e serve para eu *classificar* um elemento.
+No nosso caso a caixa maior vai ser a *class="stats"* e as menores dentro dela serão *class="stat"*.
+
+Podemos usar o **short hand** do background ou de outras características, ou seja, *atalho*, nós usamos no *margin* passando dessa maneira ele coloca todos (left, right, bottom, top) com o mesmo valor.
+
+O *display flex* a princípio coloca todos os itens um do lado do outro, mas podemos mudar sua **orientação**. No caso usamos orientação de *coluna*.
+
+Nós mudamos a posição da imagem, e utilizamos *pixel*. Utilizamos pixel justamente pela acessibilidade, caso mexa na *font size*, a imagem continuará colada no box de baixo. Porém a imagem está mantendo o tamanho, independe do *"zoom"* que damos. Para corrigir isso mudamos a largura da imagem. Porém, agora mudando pela acessibilidade, a parte de baixo vai alterando, portanto temos que usar *rem* sim.
