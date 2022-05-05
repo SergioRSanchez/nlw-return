@@ -13,6 +13,7 @@
   --paragraph: hsla(210, 9%, 31%, 1);
   --brand-beige: hsla(39, 100%, 97%, 1);
   --brand-green-light: hsla(148, 23%, 89%, 1);
+  --brand-green-light-2: hsla(180, 14%, 97%, 1);
 
   --nav-height: 7.2rem;
 }
@@ -29,6 +30,8 @@ body {
   text-align: center;
 
   overflow: overlay;
+
+  background-color: var(--brand-green-light-2);
 }
 
 .wrapper {
@@ -39,6 +42,10 @@ body {
 
 ul {
   list-style: none;
+}
+
+section {
+  padding-block: 10rem;
 }
 
 /*=== HEADER ==========================================================*/
@@ -285,4 +292,51 @@ body.menu-expanded .social-links path {
 
 body.menu-expanded button path {
   stroke: white;
+}
+
+
+/*=== SERVICES ==========================================================*/
+
+#services header h4 {
+  font-weight: 700;
+  font-size: 1.4rem;
+  line-height: 150%;
+  letter-spacing: 0.08rem;
+
+  color: var(--primary-color);
+
+  text-transform: uppercase;
+
+  margin-bottom: 1.6rem;
+}
+
+#services header h2 {
+  font-weight: 700;
+  font-size: 3.0rem;
+  line-height: 3.9rem;
+  text-align: center;
+
+  color: var(--headline);
+
+  margin-bottom: 6rem;
+}
+
+#services .cards {
+  display: flex;
+  flex-direction: column;
+  gap: 3.2rem;
+}
+
+#services .card {
+  padding: 2.4rem;
+  text-align: left;
+
+  background: white;
+
+  border: 1px solid var(--brand-green-light);
+  border-radius: .6rem;
+}
+
+#services .card h3 {
+  margin-block: 1.6rem;
 }
