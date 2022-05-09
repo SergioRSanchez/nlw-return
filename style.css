@@ -9,7 +9,7 @@
 :root{
   font-size: 62.5%;  /* 1rem = 10px */
 
-  --hue: 290;
+  --hue: 170;
   --primary-color: hsla(var(--hue), 100%, 26%, 1);
   --headline: hsla(210, 11%, 15%, 1);
   --paragraph: hsla(210, 9%, 31%, 1);
@@ -144,13 +144,14 @@ section .content p {
   fill: var(--primary-color);
 }
 
-#navigation.scroll .logo path {
-  fill: white;
-}
-
 button.open-menu path[stroke*="#00856F"],
 #contact li path {
   stroke: var(--primary-color);
+}
+
+body.menu-expanded #navigation .logo path,
+#navigation.scroll .logo path {
+  fill: white;
 }
 
 #navigation.scroll button.open-menu path[stroke*="#00856F"] {
