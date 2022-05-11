@@ -46,4 +46,7 @@ Depois de vários passos que damos, vimos uma ferramenta de acessibilidade atrav
 
 Agora vamos para o Terceiro dia do nosso projeto. Hoje iremos colocar as caixas de referência dos nossos **serviços**. Temos uma caixa, que chamaremos de *header* também contendo *h4* e *h2*. Logo embaixo temos outra caixa que vai conter todos os **cards**, como se fossem *cartões*, que irão receber suas *configurações*.
 
-Parei colocando 3 **card** dentro dos **cards**
+
+
+Depois de finalizado o projeto, pensei em algumas coisas pra dar uma melhorar pra mim. Uma delas é colocar o svg do linkedin e do github.
+Irei colocar comentando no html.
