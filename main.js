@@ -34,9 +34,6 @@ function activeMenuAtCurrentSection(section) {
   if (sectionBoundaries) {
     menuElement.classList.add('active');
   }
-
-
-
 }
 
 function showNavOnScroll() {
