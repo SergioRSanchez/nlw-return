@@ -395,6 +395,74 @@ body.menu-expanded button path {
   margin-block: 1.6rem;
 }
 
+
+/*=== TESTIMONIALS ==========================================================*/
+
+#testimonials {
+  background-color: var(--brand-light);
+}
+
+#testimonials blockquote {
+  padding: 3.2rem;
+  border-radius: .4rem;
+}
+
+#testimonials blockquote p {
+  color: var(--paragraph);
+  margin-top: 2rem;
+  margin-bottom: 2rem;;
+}
+
+#testimonials header h2 {
+  margin-bottom: 6rem;
+}
+
+#testimonials .cards {
+  display: flex;
+  flex-direction: column;
+  gap: 3.2rem;
+}
+
+#testimonials .card {
+  padding: 2.4rem;
+  text-align: left;
+
+  background: var(--brand-light-2);
+
+  border: 1px solid var(--brand-light);
+  border-radius: .4rem;
+}
+
+#testimonials .card h3 {
+  margin-block: 1.6rem;
+}
+
+#testimonials .card cite {
+  color: var(--primary-color);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 1.6rem;
+  font-weight: 700;
+}
+
+#testimonials cite img {
+  width: 4.2rem;
+  height: 4.2rem;
+  clip-path: circle();
+}
+
+/*=== swiper ==========================================================*/
+
+.swiper-slide {
+  height: auto;
+  padding: 4rem 1rem;
+}
+
+.swiper-pagination-bullet-active {
+  background-color: var(--primary-color);
+}
+
 /*=== ABOUT ==========================================================*/
 
 #about {
