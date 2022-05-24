@@ -8,6 +8,7 @@ function onScroll() {
 
   activeMenuAtCurrentSection(home);
   activeMenuAtCurrentSection(services);
+  activeMenuAtCurrentSection(testimonials);
   activeMenuAtCurrentSection(about);
   activeMenuAtCurrentSection(contact);
 }
