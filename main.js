@@ -72,8 +72,7 @@ ScrollReveal({
 #services,
 #services header,
 #services .card,
-#testimonials header,
-#testimonials .card,
+#testimonials,
 #about,
 #about header,
 #about .content,
@@ -82,11 +81,17 @@ footer`);
 
 
 /* Testimonials carousel slider swiper */
-const swiper = new Swiper('.swiper', {
+const swiper = new Swiper('.swiper-container', {
   slidesPerView: 1,
   pagination: {
     el: '.swiper-pagination',
   },
   mousewheel: true,
-  keyboard: true
+  keyboard: true,
+  breakpoints: {
+    1024: {
+      slidesPerView: 2,
+      setWrapperSize: true,
+    },
+  }
 });

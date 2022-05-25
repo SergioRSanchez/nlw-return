@@ -402,7 +402,61 @@ body.menu-expanded button path {
   background-color: var(--brand-light);
 }
 
+#testimonials .wrapper {
+  position: relative;
+  overflow: hidden;
+}
+
+#testimonials .swiper-wrapper {
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+  margin-left: auto;
+  margin-right: auto;
+
+
+
+  text-align: start;
+
+  background: var(--brand-light-2);
+
+  border: 1px solid var(--brand-light);
+  border-radius: .4rem;
+}
+
+#testimonials header {
+  margin-left: 1.5rem;
+  margin-right: 1.5rem;
+  margin-bottom: 6rem;
+}
+
 #testimonials blockquote {
+  padding: 2rem;
+  border-radius: 0.25rem;
+}
+
+#testimonials blockquote p {
+  position: relative;
+  text-indent: 2rem;
+  margin-bottom: 1.5rem;
+  color: var(--paragraph);
+}
+
+#testimonials cite {
+  display: flex;
+  align-items: center;
+  font-style: normal;
+}
+
+#testimonials cite img {
+  width: 4.2rem;
+  height: 4.2rem;
+  object-fit: cover;
+  clip-path: circle();
+  margin-right: 0.5rem;
+}
+
+/*#testimonials blockquote {
   padding: 3.2rem;
   border-radius: .4rem;
 }
@@ -457,6 +511,11 @@ body.menu-expanded button path {
 .swiper-slide {
   height: auto;
   padding: 4rem 1rem;
+}
+
+.swiper-pagination-bullet {
+  width: 0.75rem;
+  height: 0.75rem;
 }
 
 .swiper-pagination-bullet-active {
@@ -542,6 +601,7 @@ footer .social-links {
 
 #backToTopButton {
   position: fixed;
+  z-index: 100 ;
   bottom: 1rem;
   right: 2.5rem;
 
@@ -570,6 +630,9 @@ footer .social-links {
   }
   
   .wrapper {
+    max-width: 1120px;
+    margin-left: auto;
+    margin-right: auto;
     width: min(112rem, 100%);
     display: grid;
   }
@@ -786,6 +849,22 @@ footer .social-links {
   #services .card {
     width: 30%;
     flex-grow: 1;
+  }
+
+  /*=== TESTIMONIALS ==========================================================*/
+  
+  #testimonials header {
+    max-width: 42.5rem;
+    display: flex;
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  #testimonials .wrapper {
+    width: min(112rem, 100%);
+    display: flex;
+    flex-direction: column;
   }
 
   /*=== ABOUT ==========================================================*/
